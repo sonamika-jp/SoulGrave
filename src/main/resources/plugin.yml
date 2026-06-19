@@ -1,0 +1,17 @@
+name: SoulGrave
+version: 1.1.0
+main: com.example.soulgrave.SoulGravePlugin
+api-version: 26.1.2
+description: 死亡時に墓を生成するプラグイン
+author: kaito
+
+commands:
+  grave:
+    description: 墓管理コマンド
+    usage: /grave list [player]
+    permission: soulgrave.admin
+
+permissions:
+  soulgrave.admin:
+    description: 墓管理者権限
+    default: op
